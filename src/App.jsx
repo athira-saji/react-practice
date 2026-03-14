@@ -1,6 +1,10 @@
-import Button from './Button.jsx'
+import Student from './Student.jsx'
 function App() {
-    return(<Button/>);
+    return(
+        <>
+            <Student name="Alex" age={20} isStudent={true}/>
+        </>
+    );
 }
 
 export default App
